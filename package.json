@@ -16,9 +16,6 @@
     "type": "git",
     "url": "git@github.com:jeanregisser/react-native-popover.git"
   },
-  "dependencies": {
-    "react-tween-state": "0.0.5"
-  },
   "peerDependencies": {
     "react-native": ">=0.4.4"
   }

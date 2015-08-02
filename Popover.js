@@ -6,13 +6,15 @@ var {
   StyleSheet,
   Text,
   TouchableWithoutFeedback,
-  View
+  View,
+  StyleSheetRegistry,
+  Dimensions
 } = React;
-var StyleSheetRegistry = require('StyleSheetRegistry');
+
 var noop = () => {};
 
-var SCREEN_HEIGHT = require('Dimensions').get('window').height;
-var SCREEN_WIDTH = require('Dimensions').get('window').width;
+var SCREEN_HEIGHT = Dimensions.get('window').height;
+var SCREEN_WIDTH = Dimensions.get('window').width;
 
 function Point(x, y) {
   this.x = x;
