@@ -7,9 +7,10 @@ var {
   Text,
   TouchableWithoutFeedback,
   View,
-  StyleSheetRegistry,
   Dimensions
 } = React;
+
+var StyleSheetRegistry = require('StyleSheetRegistry');
 
 var noop = () => {};
 
